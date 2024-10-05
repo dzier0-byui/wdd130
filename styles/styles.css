@@ -44,6 +44,9 @@ aside img {
     width: 200px;
     height: auto;
 }
+aside h2 {
+    position: absolute;
+}
 footer {
     margin-top: 35px;
     border-top: 2px solid var(--plum);
