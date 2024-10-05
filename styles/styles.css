@@ -1,5 +1,10 @@
+:root {
+    --blue: steelblue;
+    --purple: plum;
+}
+
 nav {
-    background-color: steelblue;
+    background-color: var(--blue);
     padding: 10px;
 }
 nav a {
@@ -13,7 +18,7 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--blue);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -26,7 +31,7 @@ main {
 aside {
     width: 600px;
     margin: 20px;
-    border: 2px dotted plum;
+    border: 2px dotted var(--plum);
     padding: 13px;
     background-color: aliceblue;
     color: #202020;
@@ -37,6 +42,6 @@ aside img {
 }
 footer {
     margin-top: 35px;
-    border-top: 2px solid plum;
+    border-top: 2px solid var(--plum);
     text-align: center;
 }
