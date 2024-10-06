@@ -39,3 +39,7 @@ article img {
     float: right;
     width: 50px;
 }
+
+footer a {
+    text-decoration: none;
+}
