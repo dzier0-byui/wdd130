@@ -1,10 +1,20 @@
 /* https://coolors.co/1f629a-3f6e98-e8eff6-c98331-e1951b */
 
 :root {
-    primary-color: #1F629A;
-    secondary-color: #3F6E98;
-    accent1-color: #C98331;
-    accent2-color: #E8EFF6;
+    --primary-color: #1F629A;
+    --secondary-color: #3F6E98;
+    --accent1-color: #C98331;
+    --accent2-color: #E8EFF6;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: var(--accent1-color)
+}
+
+p {
+    font-family: "Noto Sans", sans-serif;
+    color: var(--secondary-color)
 }
 
 .hero {
