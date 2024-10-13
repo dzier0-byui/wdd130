@@ -28,12 +28,34 @@ p {
 }
 
 .hero h1 {
-    position: absolute
+    position: absolute;
+    top: 20px;                
+    left: 20px;
+    color: white;            
+    font-size: 2em;       
+    z-index: 1;
 }
 
 .hero article {
     position: absolute;
+    bottom: 20px;              
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);  
+    color: var(--accent2-color);          
+    padding: 10px;          
+    z-index: 1;   
 }
+
+.hero article img {
+    float: right;             
+    width: 150px;        
+    margin-left: 10px; 
+  }
+  
+  .hero article p {
+    margin: 0;
+    color: var(--accent2-color)                 
+  }
 
 article img {
     float: right;
