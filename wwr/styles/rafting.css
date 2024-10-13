@@ -93,6 +93,8 @@ article img {
 .adventure {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .adventure h2{
@@ -101,7 +103,7 @@ article img {
 }
 
 .adventure img{
-    width: 350px;
+    width: 100%;
 }
 
 footer {
