@@ -30,7 +30,7 @@ header nav{
 nav a {
 	display: block;
     text-decoration: none;
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--accent1-color)
 }
