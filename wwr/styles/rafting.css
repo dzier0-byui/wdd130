@@ -64,6 +64,11 @@ p {
     z-index: 1;
 }
 
+.history h2 {
+    display: flex;
+    justify-content: center;
+}
+
 .hero article {
     position: absolute;
     bottom: 20px;              
