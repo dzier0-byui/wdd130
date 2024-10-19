@@ -1,0 +1,17 @@
+.contact-info {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+}
+.contact-us {
+    display: flex;
+    flex-direction: column;
+}
+.contact-details {
+    display: flex;
+    flex-direction: column;
+}
+.method p{
+    background-color: --var(--secondary-color);
+    color: white;
+}

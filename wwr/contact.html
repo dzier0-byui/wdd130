@@ -3,12 +3,121 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Contact Rapids Rafting</title>
+        <title>Contact Us - Rapids Rafting</title>
         <meta name="description" content="The contact page for Rapids Rafting Co.">
         <meta name="author" content="Cody Dzierzon">
         <link rel="stylesheet" href="styles/rafting.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
     </head>
     <body>
-        
+        <header>
+            <img src="images/rafting-logo.jpeg" alt="Rappid Rafting Logo">
+            <h1>Rappids Rafting</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <section class="contact-info">
+                <div class="contact-us">
+                    <h3>CONTACT US</h3>
+                    <h1>Get in touch today</h1>
+                    <p>We love questions and feedback – and we're always happy to help! 
+
+                        Here are some ways to contact us.</p>
+                </div>
+                <div class="contact-details">
+                    <div class="method email">
+                        <p>Email: rapidrafting@gmail.com</p>
+                    </div>
+                    <div class="method phone">
+                        <p>Phone: (555) 555-5555</p>
+                    </div>
+                    <div class="method address">
+                        <p>Address: 123 street </p>
+                    </div>
+                </div>
+            </section>
+            <div class="maps">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4024.1915446754256!2d-120.08475781093404!3d39.38325388677554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1729307173391!5m2!1sen!2sus" width="600" height="450" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <section class="team-members">
+                <h1>Meet the Team</h1>
+                <div class="img-div">
+                    <div class="img-section">
+                        <img src="images/employee1.jpg">
+                    </div>
+                    <div class="img-section">
+                        <img src="images/employee2.jpg">
+                    </div>
+                    <div class="img-section">
+                        <img src="images/employee3.jpg">
+                    </div>
+                </div>
+                <div class="employee-description">
+                    <p>Jose is dedicated and ready to help.</p>
+                    <p>Tasha loves the outdoors.</p>
+                    <p>John want to be a river guide one day.</p>
+                </div>
+            </section>
+            <section class="form">
+                <div class="form-container">
+                    <h2>Contact Us</h2>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                
+                        <label>Purpose of Message</label>
+                        <div class="radio-group">
+                            <label>
+                                <input type="radio" name="purpose" value="general" required checked>
+                                General Inquiry
+                            </label>
+                            <label>
+                                <input type="radio" name="purpose" value="reservation">
+                                Reservation Question
+                            </label>
+                            <label>
+                                <input type="radio" name="purpose" value="suggestion">
+                                Website Suggestion
+                            </label>
+                        </div>
+                
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+                
+                        <div class="checkbox-group">
+                            <label>
+                                <input type="checkbox" name="newsletter">
+                                Please subscribe me to the monthly newsletter
+                            </label>
+                        </div>
+                
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>© 2024 Rappid Rafting, Cody Dzierzon</p>
+            <a href="https://facebook.com">
+                <img src="images/facebook_icon.png" alt="facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram_icon.png" alt="instagam">
+            </a>
+            <a href="https://snapchat.com">
+                <img src="images/snap_chat_icon.png" alt="snap_chat_icon">
+            </a>
+        </footer>
     </body>
 </html>
