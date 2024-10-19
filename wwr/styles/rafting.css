@@ -263,7 +263,7 @@ input[type="checkbox"] {
     margin-right: 10px;
 }
 
-button {
+#button {
     width: 100%;
     padding: 10px;
     background-color: var(--accent1-color);
@@ -275,6 +275,6 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+#button:hover {
     background-color: var(--secondary-color);
 }
