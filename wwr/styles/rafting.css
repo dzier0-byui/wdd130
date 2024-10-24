@@ -68,6 +68,20 @@ p {
     display: flex;
     justify-content: center;
 }
+.history-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.history img {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.history{
+    margin: 25px;
+}
 
 .hero article {
     position: absolute;
@@ -110,6 +124,10 @@ figure {
     width: 100%;
     margin: 0;
     padding: 0;
+}
+figcaption{
+    padding-top: 5px;
+    text-align: center;
 }
 
 .adventure img{
