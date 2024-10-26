@@ -93,6 +93,23 @@ p {
     z-index: 1;   
 }
 
+.hero .triparticle {
+    display: flex;
+    justify-content: center;
+    bottom: 0px !important;              
+    left: 0px !important;
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+    align-items: center;
+}
+.triparticle h3 {
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+}
+
+
 .hero article img {
     float: right;             
     width: 150px;        
@@ -295,4 +312,101 @@ input[type="checkbox"] {
 
 #button:hover {
     background-color: var(--primary-color);
+}
+
+
+/*home page */
+.action {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 50px;
+}
+
+.action h1 {
+    grid-column: span 3;
+    font-size: 50px;
+    text-align: center;
+}
+.action p {
+    max-width: 500px;
+    font-size: 25px;
+    text-align: center;
+    justify-self: center;
+}
+
+.action img {
+    align-self: center;
+    justify-self: center;
+}
+
+.booking-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items:  center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: var(--secondary-color);
+}
+
+.booking-form h2 {
+    color: var(--accent2-color);
+    font-size: 40px;
+}
+.trips{
+    width: 100%;
+    display: flex;
+}
+.trip-button {
+    width: 200px !important;
+    background-color: gray !important;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.trip-button:hover {
+    background-color: var(--primary-color) !important;
+}
+.tripimg{
+    width: 100%;
+    margin: 0 auto;
+}
+
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #dddddd; 
+}
+
+th {
+    background-color: var(--primary-color);
+    color: white; 
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+    background-color: #f2f2f2; 
+}
+
+table tbody tr:hover {
+    background-color: #e0e0e0; 
+}
+
+table {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+    border-radius: 5px;
+    overflow: hidden;
 }
